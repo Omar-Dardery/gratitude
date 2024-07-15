@@ -1,0 +1,44 @@
+*:not(button){
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    align-self: flex-end;
+}
+h1{
+    align-self: center;
+}
+.title{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 2px solid black;
+    margin: 0;
+    width: 100%;
+}
+.hidden{
+    display: none;
+}
+.body-container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+.start{
+    width: 50%;
+    height: 100px;
+    font-size: xx-large;
+    margin: 20px;
+    border-radius: 10px;
+}
+button:hover{
+    opacity: 0.5;
+}
+.question-container{
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
+    gap: 10px;
+}
